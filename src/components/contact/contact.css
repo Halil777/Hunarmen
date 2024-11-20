@@ -1,0 +1,105 @@
+.contact {
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+.pnFooter {
+  margin-top: 30px;
+}
+
+.contactMediaTitle label {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "fontRegular";
+  text-transform: uppercase;
+}
+.phoneNumbers {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 5px;
+}
+.phoneNumbersContact {
+  color: #000;
+  text-decoration: none;
+}
+.spanMedia {
+  font-size: 16px;
+}
+.phoneNumbersContact {
+  font-size: 16px;
+}
+.mediaListBus {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.forContact {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mediaListBuss {
+  display: none;
+}
+.adressmedia {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .forContact {
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    margin-bottom: -30px;
+  }
+  .kon {
+    display: none;
+  }
+  .adressmedia {
+    display: block;
+  }
+  .spanMedia {
+    font-size: 15px;
+  }
+  .phoneNumbersContact {
+    font-size: 15px;
+  }
+  .mediaListBus {
+    display: none;
+  }
+  .phnimber {
+    text-decoration: none;
+    color: #000;
+    font-family: "fontRegular";
+  }
+  .adresMedia p {
+    margin-left: -10%;
+  }
+  .mediaListBuss {
+    display: block;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  .contactMediaTitle label {
+    font-size: 20px;
+    margin-top: 150px;
+  }
+
+  .mediamedia {
+    margin-top: -10px;
+  }
+  .adresMedia {
+    margin-bottom: -45px;
+  }
+  .pochtaMedia {
+    margin-top: 70px;
+  }
+  .contactMediaTitle {
+    margin-bottom: -20px;
+  }
+  .mediaMap {
+    height: 200px;
+    padding-right: -50%;
+  }
+}

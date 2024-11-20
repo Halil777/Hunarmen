@@ -1,0 +1,83 @@
+.comeToLearn {
+  margin-top: 50px;
+}
+
+.comeToLearnImg {
+  height: 320px;
+}
+.responsive {
+  height: 320px;
+}
+
+.firstWord span {
+  font-size: 35px;
+  font-family: "fontRegular";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mediaResminama {
+  display: none;
+}
+
+.hreff {
+  width: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 37%;
+  padding: 0.5px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.departmentLissey li {
+  font-size: 15px;
+  font-family: "fontRegular";
+  line-height: 25px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .professiaImg {
+    height: 400px;
+  }
+  .mediaResminama {
+    display: block;
+  }
+  .comeTitle {
+    font-size: 25px;
+  }
+  .comeToLearnImg img {
+    height: 320px;
+  }
+  .firstWord span {
+    font-size: 23px;
+  }
+  .firstWord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comeLearn {
+    margin-top: -50px;
+  }
+  .MediaResminama {
+    display: none;
+  }
+  .responsive {
+    height: 100px;
+  }
+  .responsive img {
+    height: 200px;
+  }
+  .comeToLearnImg {
+    max-width: 100%;
+    height: auto;
+  }
+}

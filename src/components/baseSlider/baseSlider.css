@@ -1,0 +1,13 @@
+.baseSliderImg img {
+  height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .responsivee img {
+    height: 250px;
+  }
+  .baseSliderImg {
+    height: auto;
+    width: 100%;
+  }
+}

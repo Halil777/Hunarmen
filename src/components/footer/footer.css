@@ -1,0 +1,96 @@
+.footer {
+  background: #007632;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerDeartment li {
+  font-size: 16px;
+  font-family: "fontRegular";
+  padding-top: 10px;
+}
+.infoSpan {
+  font-family: "fontRegular";
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerText {
+  font-weight: 500;
+  font-family: "fontRegular";
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.bottomNavbar {
+  list-style: none;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: "ubuntuLight";
+}
+.generalStack {
+  display: none;
+}
+.qwerty {
+  display: none;
+}
+.mediaStackStart {
+  display: none;
+}
+.phoneNumbersFooter {
+  color: #fff;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .footerText {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .FooterTitttleT {
+    display: none;
+  }
+  .qwerty {
+    display: block;
+    margin-top: -70px;
+  }
+
+  .footer {
+    height: auto;
+    padding-bottom: 280px;
+  }
+  .gorunmeMedia {
+    display: none;
+  }
+  .footerDeartment {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  .mediaStackStart {
+    font-size: 15px;
+    display: block;
+  }
+  .footerDeartment li {
+    margin-bottom: -12px;
+  }
+  .thirdItemFooter p {
+    padding-bottom: -50px;
+  }
+  .pnFooter {
+    margin-top: 30px;
+  }
+
+  .generalStack {
+    width: 100%;
+    font-size: 15px;
+    display: block;
+  }
+  .firstRowStack {
+    width: 50%;
+    font-size: 15px;
+  }
+  .secondRowStack {
+    font-size: 15px;
+    width: 50%;
+  }
+}

@@ -1,0 +1,104 @@
+.professia {
+  background: #fff;
+  padding-bottom: 40px;
+}
+.professiaContainer {
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+.proffImg img {
+  height: 320px;
+}
+
+.styleTabss {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.proTitleMedia span {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "fontRegular";
+  text-transform: uppercase;
+}
+.profTitleMedia {
+  display: none;
+}
+.professiaName {
+  padding-left: 30px;
+}
+.professiaName p {
+  font-size: 15px;
+  font-family: "fontRegular";
+}
+.proffTitle {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 2px;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .proffMedia span {
+    font-size: 23px;
+  }
+  .proTitleMedia {
+    display: none;
+  }
+  .profTitleMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profTitleMedia span {
+    font-size: 23px;
+    font-family: "fontRegular";
+    display: block;
+    font-weight: 700;
+  }
+  .profTitleMedia {
+    margin-bottom: 30px;
+  }
+  .lineContainer {
+    margin-top: -13px;
+  }
+  .professiaName {
+    margin-left: -30px;
+  }
+  .professia {
+    padding-bottom: -80px;
+  }
+  .proTitleMedia span {
+    font-size: 23px;
+  }
+  .professia {
+    padding: 10px;
+  }
+  .styleTabss {
+    padding-top: 30px;
+    /* padding-left: 45px; */
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: -30px;
+  }
+  .responsive img {
+    height: 200px;
+  }
+  .responsive {
+    margin-bottom: 120px;
+  }
+  .proffImg {
+    width: 100%;
+    height: auto;
+  }
+  .profffmed {
+    margin-left: -11.5%;
+    margin-right: -2%;
+    margin-bottom: 40px;
+  }
+  .professiaContainer {
+    margin-bottom: -130px;
+  }
+}
